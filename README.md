@@ -1,33 +1,54 @@
 # AWS Hackathon Online 2020
 
 **AI for Good**  
-[官网主页](https://pages.segmentfault.com/aws-hackathon-2020) | [报名地址](https://jinshuju.net/f/c8z3gD?x_field_1=github)
+[Homepage](https://pages.segmentfault.com/aws-hackathon-2020) | [Offical](https://github.com/SegmentFault/aws-hackathon-2020)
 
-## 赛程安排
+## Intelligent monitoring of the health behavior status of the elderly
 
-* 报名时间：7 月 27 日 ~ 9 月 13 日
-* 开发阶段：7 月 27 日 ~ 9 月 13 日
-* 作品提交：9 月 14 日 ~ 9 月 16 日
-* 作品展示：9 月 19 日
+第二赛题：
+人口老龄化已经成为21世纪各个国家普遍的社会问题，不断增长的老年人比例也给老年人的健康保健服务带来了严峻挑战。 无人陪伴、远在家乡、健康意识落后等问题普遍存在于这一代中老年群体中，如何利用人工智能技术帮助老年人方便就诊、监控健康呢？人工智能初诊平台、机器人自动问诊、老年人健康状况智能监测……请以“老年人的远程智能诊疗”为主题，利用人工智能技术完成一款产品 **(软件或硬件)** 的开发。
 
-## 作品提交方式
+## Reference
+**SSHFD: Single Shot Human Fall Detection with Occluded Joints Resilience** [[arXiv](https://arxiv.org/abs/2004.00797)]
 
-为保证比赛的公平性，所有作品源码将对外公开。
+<a href="https://arxiv.org/pdf/2004.00797.pdf" rel="Paper"><img src="http://www.arxiv-sanity.com/static/thumbs/2004.00797v2.pdf.jpg" alt="Paper" width="100%"></a>
 
-1. Fork 官方仓库至个人 GitHub 仓库；
-2. Clone 个人 GitHub 仓库至本地；
-3. 进入你选择的的赛题目录，在该目录下创建你的项目文件夹；
-4. 将本地的参赛作品放进刚才创建的项目文件夹，命名格式为 `作品名 - 团队名`，如 `蜻蜓环境风向标 - 蜻蜓小队`；
-5. 通过 Pull Request 提交本人作品至官方仓库
+## Related Repo
+* [OpenPTrack](http://openptrack.org)/[repo](https://github.com/OpenPTrack/open_ptrack_v2):OPT v2 "Gnocchi" - adding object tracking and pose recognition
+* [Human Activity Understanding Benchmark](https://github.com/activitynet/ActivityNet)
+* [IndoorHIIT](https://github.com/Sun-Yize-SDUWH/IndoorHIIT-activity-recognition)
 
-## 注意事项
+## Expected Team Member Roles
 
-本次黑客马拉松的挑战作品应符合主题方向，且务必保持原创，一旦发现抄袭、剽窃其他项目作品并经核实后，将取消参与资格 。
+对二号赛题感兴趣的小伙伴，可以提pr，一起学习，一起进步，或者协定选题方向以及实现细节。
 
-提交作品时，本人作品文件夹内须包含源码、`README.md` 文件（若有可执行文件更佳），`README.md` 内容包含：
+<table class="tg">
+  <tr>
+    <th class="tg-0pky">Roles</th>
+    <th class="tg-0pky">Assignment</th>
+    <th class="tg-0pky">Result%</th>
+  </tr>
+  <tr>
+    <td rowspan="3" class="tg-0pky">后端/算法</td>
+    <td class="tg-0pky">多相机追踪/动作识别算法</td>
+    <td class="tg-0pky">完成相应监测工作</td>
+ </tr>
+  <tr>
+    <td class="tg-0lax">aws工具链/堆trick (<span style="color:red">ours</span>)</td>
+    <td class="tg-0lax"><b>充分利用AWS技术，将算法优化</b></td>
+  </tr> 
+  <tr>
+    <td class="tg-0lax">服务端部署/SQL语言/NoSQL数据库 (<span style="color:red">ours</span>)</td>
+    <td class="tg-0lax"><b>部署运维支持算法上云<b>44.72</b></td>
+  </tr>
+  <tr>
+    <td rowspan="2" class="tg-0lax">前端/小程序</td>
+    <td class="tg-0lax">界面UI设计/数据可视化/交互</td>
+    <td class="tg-0lax">业务层面监控界面设计</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">微信小程序/网页</td>
+    <td class="tg-0lax">小程序技术展示</td>
+  </tr>
+</table>
 
-* 作品介绍：应用场景
-* 作品截图：至少 3 张
-* 安装、编译指南等
-* 团队介绍：团队成员、联系方式等
-* 使用到的 AWS 技术
