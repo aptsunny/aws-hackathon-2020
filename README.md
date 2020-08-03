@@ -9,24 +9,28 @@
 人口老龄化已经成为21世纪各个国家普遍的社会问题，不断增长的老年人比例也给老年人的健康保健服务带来了严峻挑战。 无人陪伴、远在家乡、健康意识落后等问题普遍存在于这一代中老年群体中，如何利用人工智能技术帮助老年人方便就诊、监控健康呢？人工智能初诊平台、机器人自动问诊、老年人健康状况智能监测……请以“老年人的远程智能诊疗”为主题，利用人工智能技术完成一款产品 **(软件或硬件)** 的开发。
 
 ## Reference
+
+参考文章
+
 **SSHFD: Single Shot Human Fall Detection with Occluded Joints Resilience** [[arXiv](https://arxiv.org/abs/2004.00797)]
 
 <a href="https://arxiv.org/pdf/2004.00797.pdf" rel="Paper"><img src="http://www.arxiv-sanity.com/static/thumbs/2004.00797v2.pdf.jpg" alt="Paper" width="100%"></a>
 
 ## Related Repo
-* [OpenPTrack](http://openptrack.org)/[repo](https://github.com/OpenPTrack/open_ptrack_v2):OPT v2 "Gnocchi" - adding object tracking and pose recognition
+
+相关代码
+
+* [OpenPTrack](http://openptrack.org)/[Repo](https://github.com/OpenPTrack/open_ptrack_v2)
 * [Human Activity Understanding Benchmark](https://github.com/activitynet/ActivityNet)
 * [IndoorHIIT](https://github.com/Sun-Yize-SDUWH/IndoorHIIT-activity-recognition)
 
 ## Expected Team Member Roles
 
-对二号赛题感兴趣的小伙伴，可以提pr，一起学习，一起进步，或者协定选题方向以及实现细节。
-
 <table class="tg">
   <tr>
     <th class="tg-0pky">Roles</th>
     <th class="tg-0pky">Assignment</th>
-    <th class="tg-0pky">Result%</th>
+    <th class="tg-0pky">Target</th>
   </tr>
   <tr>
     <td rowspan="3" class="tg-0pky">后端/算法</td>
@@ -34,12 +38,12 @@
     <td class="tg-0pky">完成相应监测工作</td>
  </tr>
   <tr>
-    <td class="tg-0lax">aws工具链/堆trick (<span style="color:red">ours</span>)</td>
+    <td class="tg-0lax">Aws工具链/堆trick</td>
     <td class="tg-0lax"><b>充分利用AWS技术，将算法优化</b></td>
   </tr> 
   <tr>
-    <td class="tg-0lax">服务端部署/SQL语言/NoSQL数据库 (<span style="color:red">ours</span>)</td>
-    <td class="tg-0lax"><b>部署运维支持算法上云<b>44.72</b></td>
+    <td class="tg-0lax">服务端部署/SQL语言/NoSQL数据库</td>
+    <td class="tg-0lax"><b>部署运维支持算法上云</b></td>
   </tr>
   <tr>
     <td rowspan="2" class="tg-0lax">前端/小程序</td>
@@ -52,3 +56,4 @@
   </tr>
 </table>
 
+对二号赛题感兴趣的小伙伴，可以提pr，一起学习，一起进步，或者协定选题方向以及实现细节。
